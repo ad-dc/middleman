@@ -241,7 +241,7 @@ Middleman::CoreExtensions::DefaultHelpers.activate
 Middleman::CoreExtensions::Internationalization.register(:i18n)
 
 if defined?(Middleman::CoreExtensions::Compass)
-  Middleman::CoreExtensions::Compass.activate
+  # Middleman::CoreExtensions::Compass.activate
 end
 
 Middleman::Extensions::Lorem.activate
